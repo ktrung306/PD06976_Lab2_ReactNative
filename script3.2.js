@@ -12,6 +12,7 @@ const secondPromise = new Promise((resolve, reject) => {
     },2000);
 });
 
+//getList sử dụng async await được xem là một Promise.
 const getList = async () => await fetch('https://jsonplaceholder.typicode.com/todos/1');
 
 // sử dụng Promise.allSettled
